@@ -18,7 +18,7 @@ func main() {
 	exercise4()
 	fmt.Println("****************** EXERCISE 5 *****************")
 	fmt.Println("for exercise 5")
-	exercise5()
+	//exercise5()
 	fmt.Println("****************** EXERCISE 6 AND 7 *****************")
 	fmt.Println("for exercise 6 And 7")
 	exercise6n7()
@@ -75,23 +75,24 @@ func exercise4() {
 		l++
 	}
 	fmt.Println("")
+	fmt.Println("sdfkjahsfdkjasdfasf ")
 
 }
-func exercise5() {
+// func exercise5() {
 
-	var j int = 0
-	for i := 10; i <= 100; i++ {
+// 	var j int = 0
+// 	for i := 10; i <= 100; i++ {
 
-		fmt.Print(i%4, "\t")
+// 		fmt.Print(i%4, "\t")
 
-		j++
-		for j%5 == 0 {
-			fmt.Println("")
-			break
-		}
-	}
-	fmt.Println("")
-}
+// 		j++
+// 		for j%5 == 0 {
+// 			fmt.Println("")
+// 			break
+// 		}
+// 	}
+// 	fmt.Println("")
+// }
 func exercise6n7() {
 	s := "Golangr"
 	if len(s) == 6 {
